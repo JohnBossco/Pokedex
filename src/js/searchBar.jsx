@@ -18,11 +18,13 @@ export default function SearchBar() {
     dispatch(searchSlice.actions.setName(name));
   };
 
+
   return (
     <div className="search">
       <div className="searchBox">
         <form action="" onSubmit={handleSubmit}>
-          <input
+          <input 
+            required = {true}
             type="text"
             value={name}
             onChange={handleChange}

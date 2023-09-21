@@ -65,7 +65,6 @@ export function TextDescription() {
 
   const filteredEnglish = () => {
     
-   
     if (data) {
       const englishFlavorText = data.flavor_text_entries.find(
         (entry) => entry.language.name === "en"
@@ -74,11 +73,11 @@ export function TextDescription() {
         const cleanedText = removeArrow(englishFlavorText.flavor_text);
         return (
           cleanedText ||
-          "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun’s rays, the seed grows progressively larger."
+          "No Info"
         );
       }
     }
-    return "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun’s rays, the seed grows progressively larger.";
+    return "No Info";
   };
 
   return <div>{filteredEnglish()}</div>;

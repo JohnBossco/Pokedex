@@ -10,7 +10,7 @@ body{
 }
 
 .pokeDescription{
-    background-color: red;
+    background-color: #D64045;
 }
 
 .pokeImage{
@@ -26,7 +26,7 @@ body{
 }
 
 .pokeExtraSection{
-    background-color: rgb(255, 243, 69);
+    background-color: #FFD639;
     text-align: center;
 }
 
