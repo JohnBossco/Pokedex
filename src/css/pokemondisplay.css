@@ -1,0 +1,48 @@
+body{
+    background-color: aliceblue;
+}
+
+.pokeInfoContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 1rem;
+}
+
+.pokeDescription{
+    background-color: red;
+}
+
+.pokeImage{
+    background-color: rgb(133, 151, 239);
+}
+
+.name{
+    text-align: center;
+}
+
+.pokePic{
+    text-align: center;
+}
+
+.pokeExtraSection{
+    background-color: rgb(255, 243, 69);
+    text-align: center;
+}
+
+.Title{
+    text-align: center;
+}
+
+#box{
+    padding: 1rem;
+    height: 38.5rem;
+}
+
+@media (max-width: 992px) {
+    .pokeInfoContainer {  grid-template-columns: auto;}
+}   
+
+.measure{
+    font-size: large;
+}

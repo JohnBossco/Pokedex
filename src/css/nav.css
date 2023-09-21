@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.infoContainer{
+    max-height: 25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: rgb(134, 184, 255);
+    background-image: linear-gradient(rgb(215,250,155),rgb(134, 184, 255));
+}
+
+.pokeDexInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 3rem;
+}
+
+.instruction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 3rem;
+}
+
+
+
+
+
+@media screen and (max-width: 850px) {
+
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+@media screen and (max-width:740px){
+    .hide{
+        display: none;
+    }
+}
